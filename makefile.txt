@@ -1,0 +1,57 @@
+#
+#
+#         Name: vmworkshop/makefile.txt
+#
+#
+
+This document is a brief attempt to explain
+the automated retrieval logic used for constructing this repository.
+For details, see the RATIONALE section.
+
+This repository is a collection of several archives
+of tools and presentations related to the VM/CMS operating system,
+especially those contributed to the VM Workshop of the 20th century
+and the VM and Linux Workshop of the 21st century.
+
+The archives identified to date include:
+
+	vmworkshop/1984/
+	vmworkshop/1986/
+	vmworkshop/1991/
+	vmworkshop/1994/
+	vmworkshop/1995/tools/
+	vmworkshop/1996/tools/
+	vmworkshop/1997/tools/
+	vmworkshop/1998/tools/
+	vmworkshop/zvm.sru.edu/download/
+	vmworkshop/www.vm.ibm.com/download/packages/
+	vmworkshop/www.marist.edu/pipeline/
+	vmworkshop/www.marist.edu/neale/
+	vmworkshop/www.vsoft-software.com/ (the "downloads" link)
+
+RATIONALE
+
+Each archive was established by an author or collector
+who may be unaware of this collection.  In any case,
+the individual archives and their authors/procurers are independent.
+We take what they provide as-is.
+
+Make was chosen because of its ability to resume an operation
+based on requirements already satisfied.  The pivotal entry
+in any of these repositories is "index.html".  Once that file
+has been retrieved, it need not be re-fetched.  The rules are
+constructed so that only missing files are retrieved.
+
+Each archive identified has its own unique makefile,
+a "rules file" for the Unix 'make' utility.  GNU Make, as found
+on most Linux systems is expected.  There is nothing to preclude
+other 'make' implementations, but development was done with GNU Make
+so there are likely unknown dependencies on it.  A CMS equivalent
+has been demonstrated, but would use different pipelining
+than is found here.  OpenVM also has a 'make' utility, but some of
+the supporting utilities (eg: 'sed') probably behave differently.
+
+
+
+
+
