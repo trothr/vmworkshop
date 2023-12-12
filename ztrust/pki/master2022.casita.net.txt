@@ -1,0 +1,135 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            22:11:bd:68:dc:80:12:3d:fa:66:6c:28:f1:43:ed:0f:ef:0f:ce:f4
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, ST = Ohio, L = Cedarville, O = La Casita, OU = Casita.Net, CN = master-2022@casita.net, emailAddress = root@casita.net
+        Validity
+            Not Before: Jan 19 00:56:00 2022 GMT
+            Not After : Jan 10 00:56:00 2039 GMT
+        Subject: C = US, ST = Ohio, L = Cedarville, O = La Casita, OU = Casita.Net, CN = master-2022@casita.net, emailAddress = root@casita.net
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (4096 bit)
+                Modulus:
+                    00:e8:73:66:49:7c:ce:c7:bb:3e:f0:4c:da:4d:ac:
+                    74:e8:32:13:c1:88:01:b3:b5:c5:95:57:db:a2:99:
+                    fc:72:c7:31:e7:ef:73:1a:60:cf:8f:31:2e:1f:d3:
+                    28:35:4e:50:cb:45:aa:2f:d6:10:c5:c9:02:e7:4a:
+                    fd:15:ad:c1:02:ed:2e:5a:16:ad:c4:d7:bd:04:13:
+                    f0:67:6c:a4:2b:02:33:65:0e:88:2a:f3:4a:e4:a6:
+                    93:46:8d:89:28:ad:59:a8:ae:9e:51:d9:92:4b:7e:
+                    c2:47:e5:37:c9:bb:00:19:55:46:76:6b:c0:36:b9:
+                    f7:57:42:71:0d:e0:91:f5:23:11:ae:c5:76:59:e7:
+                    5c:33:3f:d6:16:07:59:8e:06:a5:59:51:c8:82:f9:
+                    3b:2c:ca:15:50:21:74:e4:1f:26:dd:36:99:df:09:
+                    e7:02:99:d8:59:bf:b3:03:9c:16:cb:b2:01:05:e4:
+                    e8:41:6e:14:ee:fe:c2:09:b9:d4:a3:7f:7c:18:f7:
+                    fc:35:55:10:a0:08:09:ae:16:61:bb:86:c3:3c:30:
+                    14:33:71:96:90:21:1e:9d:e6:63:f4:be:ed:1d:7c:
+                    e9:75:4a:13:36:50:ad:df:72:ed:51:76:ae:5c:58:
+                    4b:c0:18:b8:7f:48:4b:9c:c4:e5:5c:e9:a5:f8:97:
+                    f4:d8:d9:39:31:fd:ea:09:04:3c:96:a9:22:f7:5d:
+                    80:69:4e:5f:d9:1c:04:9b:98:3f:09:63:87:ea:55:
+                    48:85:d6:5b:82:5a:54:3d:ea:5e:27:fb:63:ea:dd:
+                    e7:7b:e4:70:76:9f:70:4f:8a:97:cf:e3:dc:48:19:
+                    b3:7b:60:a9:bc:ff:c1:57:a9:84:7d:e9:21:b2:bb:
+                    7c:a1:54:28:10:ad:36:7d:84:b9:70:db:86:3d:e3:
+                    1a:4a:5b:3d:84:de:47:aa:6b:b3:90:58:ad:c4:8f:
+                    47:4a:0c:37:58:b2:89:ea:85:a7:9b:94:8f:08:1d:
+                    2a:4c:51:69:da:8d:6f:88:83:23:e5:f7:2b:80:6e:
+                    1f:ab:07:9f:17:df:be:01:ea:59:9b:82:7f:76:6e:
+                    18:a0:74:ec:eb:3f:65:7d:83:e1:bf:63:02:63:e3:
+                    c5:ef:b1:40:1e:f6:f8:ce:79:ec:ba:f3:c4:9b:5c:
+                    20:42:33:24:ba:f6:95:6d:4f:d0:fb:28:7b:65:07:
+                    c9:d4:6a:da:40:66:37:b1:47:4c:8c:be:ee:4a:02:
+                    96:12:ba:69:63:fd:29:c4:bb:f0:a3:6a:46:72:1b:
+                    52:68:42:b9:56:37:33:45:87:34:3f:ff:a4:77:52:
+                    5e:08:01:ac:dd:d4:ba:94:89:8d:7e:66:ae:77:cf:
+                    34:c4:69
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                05:03:7D:C1:5F:C0:BB:05:44:31:3E:DF:7B:E0:89:E2:CD:61:BC:DA
+            X509v3 Authority Key Identifier: 
+                keyid:05:03:7D:C1:5F:C0:BB:05:44:31:3E:DF:7B:E0:89:E2:CD:61:BC:DA
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment, Key Agreement, Certificate Sign, CRL Sign
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://www.casita.net/ca/rootca.crl
+
+            Netscape Cert Type: 
+                Object Signing, SSL CA, S/MIME CA
+    Signature Algorithm: sha256WithRSAEncryption
+         27:8e:6c:89:7c:20:be:0d:f6:47:5a:1d:6f:10:a3:5f:2a:b6:
+         2f:8e:b8:0f:b6:4e:a1:e5:02:60:fb:cb:ed:c2:ab:d3:74:42:
+         1b:d5:47:5e:96:1f:c6:9e:4c:92:aa:bb:d9:67:e3:9e:5c:16:
+         8f:1d:ce:e5:da:f9:a6:2a:86:0d:05:9a:27:b7:22:f4:04:78:
+         68:4b:48:e7:0c:51:77:6e:11:96:6b:07:02:26:4a:2f:6b:ff:
+         e5:49:9d:ee:b6:b0:e4:d4:9e:55:74:72:98:d5:e7:32:34:f4:
+         ea:45:27:57:91:13:86:27:f9:b0:fc:71:53:2c:c0:2d:2f:6d:
+         01:46:7f:73:19:ec:06:1c:04:07:07:dd:d9:8e:b7:ad:fb:d8:
+         40:49:7d:2e:36:df:d9:21:7e:92:d7:44:d9:e4:0b:50:8e:fd:
+         e5:a3:e7:26:2f:b1:eb:0d:b3:8f:a6:b3:15:ad:0b:58:ed:60:
+         49:ce:3d:78:34:9d:24:1c:d5:77:34:2a:9e:38:65:7f:08:76:
+         9a:ef:62:af:f1:93:43:79:11:73:70:c8:4f:dd:7b:bc:41:9c:
+         fd:60:84:e1:41:1c:a7:46:7b:fa:3c:53:78:8a:e7:c0:f6:1c:
+         5d:fc:3e:9c:af:2c:dc:4e:22:f5:58:a1:9e:1f:dd:ad:0e:48:
+         6b:dd:ef:76:e9:d2:9b:c2:43:1f:67:28:3d:f2:4b:8a:58:89:
+         e5:16:f6:83:f1:90:75:f4:ed:a1:2d:92:9e:dd:76:63:08:36:
+         6b:53:f6:4b:0a:66:9b:57:00:06:1c:32:50:86:c0:09:b4:15:
+         db:f8:2b:2c:e5:84:40:3a:1a:f8:85:37:dc:ef:41:19:86:df:
+         25:f3:ff:74:7b:ff:58:1f:71:ee:b6:f1:b5:8a:33:df:a7:0d:
+         da:da:74:93:18:98:ab:6a:e9:a0:17:53:5c:b5:a1:23:63:de:
+         46:9d:01:77:a7:48:0f:8a:d4:40:ba:ff:50:38:91:ff:8b:3e:
+         d3:d4:a7:02:c0:12:0d:98:5e:dc:b0:c2:34:b9:07:f8:39:17:
+         f8:f6:df:bc:28:6a:78:1b:ab:44:3f:e7:3d:05:e0:80:86:3b:
+         77:fe:18:d4:99:51:5c:1e:5b:17:4a:bd:c0:2e:e2:5f:90:3b:
+         9c:95:b2:10:4a:94:4d:2c:ec:fa:4c:63:00:0f:56:50:96:5b:
+         02:8e:11:35:e2:32:ca:c3:e0:d0:56:fd:cc:33:f1:bc:98:b6:
+         f6:bf:3d:39:43:8e:ac:a6:cb:95:73:6c:a8:23:91:0e:ab:4d:
+         ae:2c:b1:ff:9c:24:24:8d:25:dc:ba:0f:0e:a9:bd:4c:ab:71:
+         52:fb:98:36:3a:8a:7a:2c
+-----BEGIN CERTIFICATE-----
+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
+JCSNJdy6Dw6pvUyrcVL7mDY6inos
+-----END CERTIFICATE-----
