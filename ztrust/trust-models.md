@@ -37,14 +37,14 @@ But there's more! <br/>
 It turns out that the logic can be turned around for a really handy effect.
 If you make some public statement, how do we know that it truly
 came from you? You can run a hash or a checksum against the document
-and then encrypt with your private key (which only you posess)
+and then encrypt *that* with your private key (which only you posess)
 then we in the public (with your public key) can decrypt the checksum
 or hash and confirm authenticity. Any other key would either get
 incorrect data or would fail to decrypt at all. We know it's you!
 
 ## Trust Models
 
-There are at least three identifyable trust models using the asymmetric
+There are at least three trust models using the asymmetric
 cryptography we have described: hierarchical third party trust
 (PKI), person-to-person trust (PGP/GPG), and manual assertion (SSH).
 
@@ -84,6 +84,15 @@ keys allows that they be cryptographically "signed" by other PGP users
 while remaining fully intact. There is an "import" function whereby you
 add keys to your keyring. The import operation safely updates keys which
 you already hold, adding signatures of others, etc.
+
+By mutually signing each others keys, the greater community of people
+who use PGP has established a "web of trust". The PGP trust model is
+*highly* reliable for personal affirmation, but it does not scale well
+in enterprise environments. Bluntly, it is confusing for non-technical
+users and training is already a huge cost.
+
+The Debian Linux community has established their own web of trust,
+demonstrating that (for highly technical users) the PGP model *can* scale.
 
 ## SSH - Secure Shell
 
