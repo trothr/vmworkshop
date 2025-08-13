@@ -1,10 +1,11 @@
 # Trust Models
 
-It's all about trust. <br/>
+It's all about trust.
+
 With contemporary encryption, there are two primary types of keys:
 symmetric and asymmetric. They provide two very different kinds of
-protection. They are usually (almost always) used together.
-But it's asymmetric encryption which lets us identify and verify.
+protection. They are usually (almost always) used together,
+but it's asymmetric encryption which lets us identify and verify.
 
 Asymmetric cryptography provides the foundation for performing
 verification and identification under program control, maintaining trust.
@@ -33,11 +34,12 @@ the process cannot be reversed. ONLY YOU, with your *private* key
 can decrypt the message. This means that messages can be securely sent
 to you and *only* you.
 
-But there's more! <br/>
+But there's more!
+
 It turns out that the logic can be turned around for a really handy effect.
 If you make some public statement, how do we know that it truly
 came from you? You can run a hash or a checksum against the document
-and then encrypt *that* with your private key (which only you posess)
+and then encrypt *that* with your private key (which only you possess)
 then we in the public (with your public key) can decrypt the checksum
 or hash and confirm authenticity. Any other key would either get
 incorrect data or would fail to decrypt at all. We know it's you!
@@ -52,7 +54,7 @@ cryptography we have described: hierarchical third party trust
 
 PKI stands for "Public Key Infrastructure".
 
-When the world wide web was young, but we were starting to do business
+When the World Wide Web was young, but we were starting to do business
 on it, developers began creating data protection schemes, most visible
 being SSL or "Secure Sockets Layer". SSL uses asymmetric cryptography
 to provide assurance of the veracity of the target web site. The logic
@@ -67,8 +69,8 @@ to the myriad web site operators. If you trust the CA, then you take
 their root certificate(s) into your trust store and your browser will
 perform the necessary asymmetric cryptography to confirm each site.
 
-This has become big business. <br/>
-But it requires ongoing reliance on a third party:
+This has become big business,
+but it requires ongoing reliance on a third party:
 the CA must always be consulted (by proxy of its root certificates)
 in the handshake between the end user or client program and the server.
 
@@ -76,7 +78,7 @@ in the handshake between the end user or client program and the server.
 
 PGP stands for "Pretty Good Privacy" and was the first asymmetric
 encryption service widely known to the general public. GPG is Gnu
-Privacy Guard, a popular alternative, fully inter-operabole with PGP.
+Privacy Guard, a popular alternative, fully interoperable with PGP.
 
 All implementations of PGP, including GPG, have the concept of a keyring
 where you collect the public keys that you will use. The structure of the
@@ -85,13 +87,13 @@ while remaining fully intact. There is an "import" function whereby you
 add keys to your keyring. The import operation safely updates keys which
 you already hold, adding signatures of others, etc.
 
-By mutually signing each others keys, the greater community of people
-who use PGP has established a "web of trust". The PGP trust model is
+By mutually signing each other's keys, the greater community of people
+who use PGP has established a "Web of Trust". The PGP trust model is
 *highly* reliable for personal affirmation, but it does not scale well
 in enterprise environments. Bluntly, it is confusing for non-technical
 users and training is already a huge cost.
 
-The Debian Linux community has established their own web of trust,
+The Debian Linux community has established their own trust web,
 demonstrating that (for highly technical users) the PGP model *can* scale.
 
 ## SSH - Secure Shell
