@@ -1,7 +1,7 @@
 # Verification
 
 Asymmetric crypto is more often used for *verification*
-than for data protection. (Think "code signing.)
+than for data protection. (Think "code signing".)
 
 The process can be reversed: If I run some hash or checksum over a
 message that I want to send, and then encrypt that with my *private* key,
